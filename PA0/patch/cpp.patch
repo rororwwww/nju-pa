@@ -1,0 +1,21 @@
+--- a.cpp	2022-11-08 20:51:34.000000000 +0800
++++ b.cpp	2022-11-05 20:04:10.000000000 +0800
+@@ -3,8 +3,6 @@
+ #include <cstdio>
+ #include <type_traits>
+ 
+-extern int add(int a, int b);
+-
+ using namespace std;
+ 
+ int main() {
+@@ -32,7 +30,8 @@
+     {
+        cout << "typeid(i) == typeid(unsigned int)" << endl;
+     }
+-    
++
++    cout << "This is my new file" << endl;    
+     
+     return 0;
+ }

@@ -1,0 +1,3 @@
+[submodule "ics2022"]
+	path = ics2022
+	url = git@github.com:rororwwww/ics2022.git
